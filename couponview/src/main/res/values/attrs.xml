@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CouponView">
+        <attr name="vertical_style_left" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="triangle" value="2"/>
+        </attr>
+        <attr name="vertical_style_right" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="triangle" value="2"/>
+        </attr>
+        <attr name="horizontal_style_top" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="circle" value="1" />
+            <enum name="triangle" value="2"/>
+        </attr>
+        <attr name="horizontal_style_bottom" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="circle" value="1" />
+            <enum name="triangle" value="2"/>
+        </attr>
+        <attr name="color_parent_bg" format="color"/>
+        <attr name="interval" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+</resources>
